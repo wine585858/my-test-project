@@ -1,16 +1,53 @@
-# my-test-project
-Mainly stores important modules
-​🛡️ Web3-Survival-Toolkit (Web3 生存工具包)
-​"Build for the grassroots. Protect the ordinary." > (为草根建设，保护普通人。)
-​📖 About This Project (关于本项目)
-​This repository is dedicated to the Web3 grassroots community. In a dark forest filled with phishing links and Sybil-detection mechanisms, ordinary users need clear, open-source rules to survive and thrive.
-(本项目致力于服务 Web3 草根社区。在充满钓鱼链接和女巫检测机制的黑暗森林中，普通用户需要清晰、开源的规则来生存和发展。)
-​🚀 Core Modules (核心模块)
-​Currently under construction. The following modules are being continuously updated:
-(目前正在建设中，以下模块将持续更新：)
-​[x] Anti-Sybil Physical Isolation SOP (物理级防女巫标准作业程序)
-​[ ] Smart Contract Authorization Scanner (智能合约授权风险扫描 - Planning)
-​[ ] On-chain Data Interaction Scripts (链上数据交互脚本 - Planning)
-​🤝 Philosophy (理念)
-​We believe that Web3 should not just be a playground for whales and elites. True consensus comes from the grassroots. "穷则独善其身" (When in obscurity, perfect yourself).
-(我们相信 Web3 不应仅仅是巨鲸和精英的游乐场。真正的共识来自草根。穷则独善其身。)
+# 🛡️ Web3 草根资产守护计划：防钓鱼与钱包物理隔离 SOP
+
+> **"In the dark forest, security is not a luxury, it's a necessity."**
+> (在黑暗森林中，安全不是奢侈品，而是必需品。)
+
+## ⚠️ 为什么我们需要物理级安全隔离？
+
+随着 Web3 生态的爆发，钓鱼链接、恶意签名（如恶意的 eth_sign 或 Permit2）防不胜防。每天都有无数草根 Builder 因为一次大意授权，导致倾家荡产。
+普通的杀毒软件和浏览器插件已经无法应对复杂的链上钓鱼。为了保护普通用户的链上资产，本 SOP 提出采用极客级别的**“纯物理隔离”与“授权防火墙”**策略。
+
+---
+
+## 💻 一、 硬件与资金的物理隔离 (Physical Isolation)
+
+不要把所有的鸡蛋放在同一个联网的篮子里。我们将资产分为“金库”与“前线”。
+
+1. **绝对冷钱包（The Vault）：**
+   * 准备一台旧手机，恢复出厂设置，断开一切网络（甚至拔掉 SIM 卡），只通过扫码与外界交互。
+   * **铁律：** 绝对冷钱包只存大额资产，**永远不参与** 任何 Dapp 的链接和合约交互。
+2. **前线交互设备（The Frontline）：**
+   * 用于日常连接 Web3 项目、进入 Discord 社区、点击各类链接的日常设备。
+   * **铁律：** 前线设备的钱包里，只存放足够支付单次 Gas 费和交互所需的极小额资金。被盗就当交学费，绝不心疼。
+
+---
+
+## 🛑 二、 链上授权防火墙 (Approval Firewall)
+
+很多黑客并不直接盗取私钥，而是骗取你的“无上限代币扣款授权”。
+
+1. **拒绝无限授权（Infinite Approval）：**
+   * 在任何 DEX（去中心化交易所）交互时，手动将授权额度修改为**单次交易所需的精确数量**。绝不贪图省事使用“默认无限额度”。
+2. **定期静默清扫（Routine Revoke）：**
+   * 每周固定时间，使用开源工具（如 Revoke.cash）检查所有前线钱包的授权记录。
+   * 发现任何不认识的合约、或者已经结束交互的项目合约，立刻撤销（Revoke）授权。
+
+---
+
+## 🧠 三、 零信任交互原则 (Zero-Trust Principle)
+
+不要相信你的眼睛，要像审计代码一样审计每一个操作。
+
+1. **Discord 私信隔离：**
+   * 在个人设置中，**永久关闭** 所有 Web3 服务器的陌生人私信功能。99.9% 的“官方客服私信”都是钓鱼。
+2. **签名盲区警告（Blind Signing）：**
+   * 永远不要签署一串你看不懂的十六进制乱码。真实的 Dapp 交互会清楚显示你要调用的函数（如 Transfer, Swap）。
+
+---
+
+## 结语 (Conclusion)
+
+安全是一场没有终点的修行。在 Web3 的世界里，只有自己才能为自己的资产负责。
+
+**"穷则独善其身，用纪律和物理隔离，构建属于我们草根 Builder 的安全护城河。"**
