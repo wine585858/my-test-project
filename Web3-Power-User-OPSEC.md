@@ -1,3 +1,8 @@
+ Core Manifesto:
+A true Web3 ecosystem requires real liquidity and human participants, not cold, scripted bots.
+The purpose of this SOP is not to create fake nodes (witches), but to teach “power users across multiple devices” how to protect their hard-earned on-chain footprints from being “false positives” of crude anti-witch algorithms through extreme physical isolation.
+We reject script-based bot networks; we build only genuine consensus.
+
 # 🛡️ 夜鹰计划：5 台实体机物理级防女巫 (Anti-Sybil) SOP
 
 > **"In the dark forest, absolute isolation is the only way to survive."**
